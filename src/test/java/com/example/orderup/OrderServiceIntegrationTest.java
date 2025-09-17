@@ -13,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.*;
 public class OrderServiceIntegrationTest {
     @Autowired ProductRepository productRepo;
     @Autowired OrderService orderService;
-
     @Test
     void concurrentOnlyOneSucceeds() throws Exception{
         productRepo.deleteAll();
