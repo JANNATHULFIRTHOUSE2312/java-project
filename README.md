@@ -22,10 +22,10 @@
 | -------------- | ---------------------------------------------------------------- |
 | **Controller** | Accepts HTTP requests and sends responses                        |
 | **Service**    | Handles business logic like product lookup and stock reservation |
-| **Entity/DTO** | Entities for persistence, DTOs for API input/output separation   |
+| **Entity/DTOS** | Entities for persistence, DTOs for API input/output separation   |
 | **AOP**        | Used for logging execution time of business operations           |
 | **Exception**  | Centralized handler returns proper HTTP status and messages      |
-
+| Repository     |to handle database operations ) using Spring Data JPA.            |
 ---
 
 ## 🔄 Order Processing Flow
@@ -173,20 +173,3 @@ curl -X POST http://localhost:8080/orders \
 | JUnit 5 + Mockito | Unit testing framework             |
 | MockMvc           | Integration testing                |
 | JaCoCo            | Code coverage reporting            |
-
----
-
-## ✅ Summary
-
-**SafeCart** is built to help fast-growing small businesses handle inventory and orders without crashing under load. It combines:
-
-* A clean, modular Spring Boot design
-* Thread-safe stock handling
-* Robust test and coverage setup
-* Clear, centralized error handling
-
-With this foundation, your business backend is ready to scale with confidence.
-
----
-
-Would you like this delivered as a downloadable `README.md` file? I can also turn it into a **PDF for submission**, or help you brand it further with your name/logo!
