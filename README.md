@@ -5,7 +5,6 @@
 ---
 
 ## 🚀 Key Highlights
-
 | Feature                          | Description                                                              |
 | -------------------------------- | ------------------------------------------------------------------------ |
 | 🛍️ Reliable Order API           | Exposes a clean RESTful endpoint to process product orders               |
